@@ -1,0 +1,250 @@
+body{
+  background-color:#f2f2f2;
+  padding-top:80px;
+}
+#header{
+  width:100%;
+  height: 80px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top:0;
+  left:0;
+  position:fixed; 
+  padding: 0 20px;
+  z-index:10; 
+}
+#header-img{
+  z-index:11;
+  width:70px;
+  height:50px;
+  padding-left:20px;
+}
+.sound-sphere{
+  padding-left:110px;
+  padding-top:5px;
+  position:fixed;
+}
+#nav-bar{
+  display:flex;
+  align-items:center;
+}
+
+#nav-bar ul{
+  list-style-type:none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right:30px;
+}
+
+#nav-bar li{
+  padding-right:20px;
+  align-items:center;
+  display:flex;
+  
+}
+#nav-bar li:hover{
+  text-decoration: underline;
+  cursor: pointer;  
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+h1{
+  text-align:center;
+  
+}
+input{
+  display:flex;
+  align-items:center;
+  margin:auto;
+}
+button{
+  display:flex;
+  margin:auto;
+  margin-top:5px;
+}
+#submit{
+  margin-top:10px;
+}
+#submit:hover{
+  cursor:pointer;
+  background-color:white;
+}
+button:hover{
+  cursor:pointer;
+  background-color:white;
+}
+iframe{
+  margin:auto;
+  display:flex;
+  margin-top:30px;
+  width:450px;
+  height:250px;
+}
+
+.sound-icon{
+  width:100px;
+  height:70px;
+  padding-right:20px;
+  object-fit:contain;
+}
+.delivery-icon{
+  width:100px;
+  height:70px;
+  padding-right:20px;
+  object-fit:contain;
+}
+.quality-icon{
+  width:100px;
+  height:70px;
+  padding-right:20px;
+  object-fit:contain;
+}
+#sound{ 
+ display:flex;
+ align-items:center; 
+ padding-right:20px;
+}
+
+.shipping{ 
+ display:flex;
+ align-items:center;
+ padding-right:20px;
+}
+.quality{ 
+ display: flex;
+ align-items:center;
+ padding-right:20px;
+}
+section{
+  padding-left:75px;
+  padding-right:75px;
+}
+#headphones{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  gap: 10px; 
+  
+}
+.headphone1{
+  margin-top:30px;
+  width:300px;
+  height:350px;
+  border: 1px solid black;
+}
+.name1{
+  width:100%;
+  height:40px;
+  top:0;
+  background-color: #e3e4e6;
+  text-align:center;
+  font-size: 18px;
+  padding-top: 10%;
+}
+.description1{
+  text-align:center;
+  padding-top:35px;
+}
+.headphone2{
+  margin-top:30px;
+  width:300px;
+  height:350px;
+  border: 1px solid black;
+}
+.name2{
+  width:100%;
+  height:40px;
+  top:0;
+  background-color: #e3e4e6;
+  text-align:center;
+  font-size: 18px;
+  padding-top: 10%;
+}
+
+.description2{
+  text-align:center;
+  padding-top:35px;
+}
+.headphone3{
+  margin-top:30px;
+  width:300px;
+  height:350px;
+  border: 1px solid black;
+}
+.name3{
+  width:100%;
+  height:40px;
+  top:0;
+  background-color: #e3e4e6;
+  text-align:center;
+  font-size: 18px;
+  padding-top: 10%;
+}
+.description3{
+  text-align:center;
+  padding-top:35px;
+}
+.select{
+  width:100px;
+  height:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:30px;
+}
+.price{
+  padding-top:10px;
+}
+
+footer{
+  padding-bottom:20px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  #nav-bar ul {
+   
+    gap: 10px;
+    padding-left: 20px;
+    padding-top:20px
+  }
+
+  .sound-sphere {
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  #headphones {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .headphone1,
+  .headphone2,
+  .headphone3 {
+    width: 90%;
+  }
+
+  iframe {
+    width: 90%;
+    height: 200px;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
